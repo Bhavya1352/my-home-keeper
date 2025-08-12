@@ -27,10 +27,7 @@ React • CSS • React Router • LocalStorage • Firebase • Vercel
 
 ---
 
-## 📦 Installation
-```bash
-git clone https://github.com/Bhavya1352/my-home-keeper.git
-cd my-home-keeper
+## Structure
 
 src/
  ├── components/
@@ -45,5 +42,4 @@ src/
 
 
 
-npm install
-npm start
+n
