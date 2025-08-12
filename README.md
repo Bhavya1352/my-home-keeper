@@ -6,7 +6,7 @@ Tasks are color-coded by urgency, with quick-add options, drag-and-drop sorting,
 Built using React, CSS, and React Router.
 
 🔗 **Live Demo:** [my-home-keeper.vercel.app](https://my-home-keeper.vercel.app/)  
-👤 **Author:** [Bhavya1352](https://github.com/Bhavya1352)
+
 
 ---
 
