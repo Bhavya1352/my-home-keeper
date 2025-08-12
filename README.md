@@ -26,8 +26,7 @@ Built using React, CSS, and React Router.
 React • CSS • React Router • LocalStorage • Firebase • Vercel
 
 ---
-
-## Structure
+Structure
 
 src/
  ├── components/
