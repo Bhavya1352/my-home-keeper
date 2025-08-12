@@ -1,15 +1,49 @@
-
 # 🏠 My Home Keeper
 
-**My Home Keeper** is a personal dashboard management tool that helps you keep track of all your dashboards in one place.  
-It features a clean, responsive design built using **HTML, CSS, JavaScript, and React**.
+A responsive web app to help users track home maintenance tasks with customizable categories, due dates, and recurring schedules.  
+Personalize your dashboard with a profile and home name, switch between themes, earn badges, and track progress with a completion bar.  
+Tasks are color-coded by urgency, with quick-add options, drag-and-drop sorting, and daily tips. Data is stored in LocalStorage or Firebase.  
+Built using React, CSS, and React Router.
+
+🔗 **Live Demo:** [my-home-keeper.vercel.app](https://my-home-keeper.vercel.app/)  
+👤 **Author:** [Bhavya1352](https://github.com/Bhavya1352)
 
 ---
 
 ## ✨ Features
+- Custom categories, due dates, recurring tasks
+- Profile & home name personalization
+- Themes, badges, and completion bar
+- Color-coded urgency indicators
+- Quick-add & drag-and-drop sorting
+- Daily tips for engagement
+- LocalStorage or Firebase persistence
+- Fully responsive design
 
-- 📋 Organize and manage multiple dashboards from a single platform.
-- 🎨 Modern, responsive user interface.
-- ⚡ Interactive components with dynamic updates.
-- 🗂 Add, edit, or remove dashboards as needed.
-- --
+---
+
+## 🛠 Tech Stack
+React • CSS • React Router • LocalStorage • Firebase • Vercel
+
+---
+
+## 📦 Installation
+```bash
+git clone https://github.com/Bhavya1352/my-home-keeper.git
+cd my-home-keeper
+
+src/
+ ├── components/
+ ├── pages/
+ ├── styles/
+ ├── hooks/
+ ├── utils/
+ ├── App.js
+ └── index.js
+
+
+
+
+
+npm install
+npm start
