@@ -5,9 +5,16 @@ import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { CalendarCheck, Wrench, BellRing, ShieldCheck, Star, Sparkles } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import hero1 from "@/assets/hero-1.jpg";
 import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
+import planRoof from "@/assets/plan-roof.jpg";
+import planGarden from "@/assets/plan-garden.jpg";
+import planPlumbing from "@/assets/plan-plumbing.jpg";
+import planElectrical from "@/assets/plan-electrical.jpg";
+import planPaint from "@/assets/plan-paint.jpg";
+import planHvac from "@/assets/plan-hvac.jpg";
 
 const Index = () => {
   useEffect(() => {
@@ -23,7 +30,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen text-foreground">
       <header className="w-full">
         <nav className="container py-6 flex items-center justify-between">
           <a href="#" className="text-xl font-bold tracking-tight">My Home Keeper</a>
@@ -154,6 +161,39 @@ const Index = () => {
                     <CardDescription>{desc}</CardDescription>
                   </CardContent>
                 </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="plans-gallery" className="border-t border-border">
+          <div className="container py-12 md:py-20">
+            <header className="mb-10 text-center max-w-2xl mx-auto">
+              <h2 className="font-playfair text-3xl md:text-4xl font-semibold">Mixed plans for every part of your home</h2>
+              <p className="text-muted-foreground mt-2">From roof to garden, plumbing to paint — a complete, diverse gallery.</p>
+            </header>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[{ src: planRoof, label: "Roof inspection", alt: "Roof shingles with ladder — home roof inspection" },
+                { src: planPlumbing, label: "Plumbing check", alt: "Under‑sink plumbing pipes with wrench — plumbing maintenance" },
+                { src: planElectrical, label: "Electrical safety", alt: "Electrical panel with tools — electrical safety check" },
+                { src: planGarden, label: "Garden care", alt: "Backyard garden tools and plants — seasonal garden maintenance" },
+                { src: planPaint, label: "Paint refresh", alt: "Paint rollers and color swatches — interior repaint plan" },
+                { src: planHvac, label: "HVAC service", alt: "Outdoor AC unit — HVAC maintenance plan" }].map((item, i) => (
+                <figure key={i} className="group overflow-hidden rounded-lg border bg-card shadow-sm">
+                  <AspectRatio ratio={16/10}>
+                    <img
+                      src={item.src}
+                      alt={item.alt}
+                      className="h-full w-full object-cover transition-transform duration-300 ease-out group-hover:scale-105"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </AspectRatio>
+                  <figcaption className="p-4 text-sm flex items-center justify-between">
+                    <span className="font-medium">{item.label}</span>
+                    <span className="text-muted-foreground">Plan</span>
+                  </figcaption>
+                </figure>
               ))}
             </div>
           </div>

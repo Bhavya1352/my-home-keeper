@@ -100,6 +100,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: hsl(var(--background));
+    background-image: linear-gradient(to bottom, hsl(var(--background)) 0%, hsl(var(--secondary)) 100%);
   }
 }
