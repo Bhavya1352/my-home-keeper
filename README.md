@@ -17,12 +17,12 @@
 1. **Clone the repository:**
    git clone  https://github.com/Bhavya1352/my-home-keeper.git
 
- #  Technologies Used
-  React
- Vite
-TypeScript
-Tailwind CSS
-Radix UI Primitives
-Lucide Icons
-Bun (optional)
-Embla Carousel (for image sliders)
+ 2.   Technologies Used
+  - React
+- Vite
+- TypeScript
+- Tailwind CSS
+  
+-Lucide Icons
+- Bun (optional)
+ -Embla Carousel (for image sliders)
