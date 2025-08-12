@@ -26,19 +26,3 @@ Built using React, CSS, and React Router.
 React • CSS • React Router • LocalStorage • Firebase • Vercel
 
 ---
-Structure
-
-src/
- ├── components/
- ├── pages/
- ├── styles/
- ├── hooks/
- ├── utils/
- ├── App.js
- └── index.js
-
-
-
-
-
-n
