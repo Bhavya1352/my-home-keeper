@@ -2,7 +2,7 @@
 
 A delightful and responsive web application designed to help homeowners stay on top of their maintenance tasks. Keep your home in perfect condition with customizable categories, smart scheduling, and an engaging user experience.
 
-![Home Maintenance Tracker](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Home+Maintenance+Tracker)
+![Home Maintenance Tracker] https://my-home-keeper.vercel.app/
 
 ## ✨ Features
 
@@ -46,8 +46,8 @@ A delightful and responsive web application designed to help homeowners stay on 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/home-maintenance-tracker.git
-   cd home-maintenance-tracker
+   git clone https://github.com/Bhavya1352/my-home-keeper.git
+   cd my-home-keeper
    ```
 
 2. **Install dependencies**
@@ -62,10 +62,7 @@ A delightful and responsive web application designed to help homeowners stay on 
    npm start
    # or
    yarn start
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000` to see your app running!
+   ``
 
 ## 🔧 Configuration
 
@@ -210,27 +207,7 @@ npm run deploy     # Deploy to hosting platform
 - [ ] Photo documentation for tasks
 - [ ] Weather-based task suggestions
 - [ ] Community maintenance tips
-- [ ] Cost tracking and budgeting
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Support
-
-- 📧 Email: support@homemaintenance-tracker.com
-- 💬 Discord: [Join our community](https://discord.gg/home-maintenance)
-- 📖 Documentation: [Full docs](https://docs.homemaintenance-tracker.com)
-- 🐛 Bug Reports: [GitHub Issues](https://github.com/yourusername/home-maintenance-tracker/issues)
-
-## 🙏 Acknowledgments
-
-- Icons provided by [Lucide React](https://lucide.dev)
-- UI inspiration from modern design systems
-- Home maintenance expertise from professional contractors
-- Community feedback and feature requests
-
----
+- [ ] Cost tracking and budget
 
 **Happy Home Maintaining!** 🏠✨
 
