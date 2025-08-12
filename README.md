@@ -1,28 +1,28 @@
 # 🏠 My Home Keeper
 
-A responsive web app to help users track home maintenance tasks with customizable categories, due dates, and recurring schedules.  
-Personalize your dashboard with a profile and home name, switch between themes, earn badges, and track progress with a completion bar.  
-Tasks are color-coded by urgency, with quick-add options, drag-and-drop sorting, and daily tips. Data is stored in LocalStorage or Firebase.  
-Built using React, CSS, and React Router.
+**My Home Keeper** is a modern home maintenance tracker that helps you organize, schedule, and track recurring tasks for your home. With a sleek dark UI, smooth image transitions, and engaging animations, it makes home care effortless and enjoyable.
 
-🔗 **Live Demo:** [my-home-keeper.vercel.app](https://my-home-keeper.vercel.app/)  
+## Features
 
+- 🗓️ **Recurring Schedules:** Set monthly, seasonal, or yearly reminders so nothing slips.
+- 🏷️ **Custom Categories:** Group tasks by rooms, systems, or priorities for clarity.
+- 🔔 **Smart Reminders:** Get notified about upcoming tasks with color-coded urgency.
+- 📈 **Progress Tracking:** Visualize your completion rate and earn badges.
+- 🌙 **Dark Mode:** Elegant dark interface for comfortable use any time.
+- ⚡ **Fast & Responsive:** Built with modern React and Vite for instant load times.
+- 🖼️ **Smooth Animations:** Delightful transitions and image galleries.
 
----
+## Installation
 
-## ✨ Features
-- Custom categories, due dates, recurring tasks
-- Profile & home name personalization
-- Themes, badges, and completion bar
-- Color-coded urgency indicators
-- Quick-add & drag-and-drop sorting
-- Daily tips for engagement
-- LocalStorage or Firebase persistence
-- Fully responsive design
+1. **Clone the repository:**
+   git clone  https://github.com/Bhavya1352/my-home-keeper.git
 
----
-
-## 🛠 Tech Stack
-React • CSS • React Router • LocalStorage • Firebase • Vercel
-
----
+ #  Technologies Used
+  React
+ Vite
+TypeScript
+Tailwind CSS
+Radix UI Primitives
+Lucide Icons
+Bun (optional)
+Embla Carousel (for image sliders)
